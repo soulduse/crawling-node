@@ -1,5 +1,5 @@
 ## 참고한 자료
-- 자바스크립트와 Node.js를 이용한 웹 크롤링 테크닉 책
+- [자바스크립트와 Node.js를 이용한 웹 크롤링 테크닉](http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791185890661)
 - http://programmingsummaries.tistory.com/362
 
 ## 앞으로 해볼것
