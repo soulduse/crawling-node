@@ -1,7 +1,7 @@
 var casper = require('casper').create({verbose: true, logLevel: "debug"});
 
 // URL 및 로그인 정보 변수
-var url = "http://soulduse.tistory.com/admin/center/"
+var url = "http://soulduse.tistory.com/admin/center/";
 var id = "";
 var password = "";
 
@@ -13,7 +13,7 @@ casper.open(url);
 casper.then(function(){
     casper.fill("#authForm",{
         loginId: id,
-        loginPw: password
+        password: password
     }, true);
 });
 
