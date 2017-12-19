@@ -7,8 +7,6 @@ var password = "";
 
 casper.start();
 
-casper.open(url);
-
 // login
 casper.then(function(){
     casper.fill("#authForm",{
@@ -27,7 +25,7 @@ casper.then(function(){
     casper.wait(3000);
 });
 
-casper.then(function(){
+casper.then(finction(){
     casper.capture('capture.png', {
         top:0, left:0, width:1024, height:768
     });
