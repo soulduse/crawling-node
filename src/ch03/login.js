@@ -34,4 +34,9 @@ casper.then(function(){
     console.log("새 방명록 수 : "+this.evaluate(getGuestBook));
 });
 
+casper.then(function(){
+    console.log("Make a screenshot and save it as AfterLogin.png");
+    this.capture("AfterLogin.png");
+});
+
 casper.run();
